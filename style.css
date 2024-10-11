@@ -1,0 +1,179 @@
+.wrap {
+    padding: 45px;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-panel {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(165, 211, 165);
+    color: rgb(220, 241, 236);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-right: 35px;
+}
+
+.nav-block {
+    display: flex;
+}
+.homework-link{
+    text-decoration: none;
+    outline: none;
+    color: aliceblue;
+}
+.homework-link:hover{
+    color: white;
+
+}
+.fa-user-md {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-list>li:hover {
+    color: white;
+}
+
+.nav-icones {
+    font-size: 20px;
+    color: rgb(220, 241, 236);
+    display: flex;
+    gap: 48px;
+
+}
+
+.list-title {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
+    font-weight: 400;
+}
+
+.lessons {
+    width: 90%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.last-lessons {
+    display: flex;
+    gap: 25px;
+    border-bottom: solid grey 1px;
+    padding-right: 15px;
+
+
+}
+
+.lesson {
+    color: rgb(101, 101, 240);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.first-lesson {
+    border: solid grey 1px;
+    border-bottom: none;
+    color: rgb(36, 36, 127);
+
+
+}
+
+.lesson:hover {
+    color: rgb(36, 36, 127);
+    border-right: solid grey 1px;
+    border-top: solid grey 1px;
+    border-left: solid grey 1px;
+
+}
+
+.group-form {
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    gap: 175px;
+    color: rgb(167, 174, 175);
+}
+
+b {
+    color: rgb(103, 102, 102);
+    font-size: 20px;
+    line-height: 58px;
+}
+
+.input-topic {
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button-boot {
+    margin-top: 10px;
+
+}
+.btn-size{
+    padding-right: 0;
+}
+.btn-test{
+    width: 70px;
+}
+.input-table{
+    width: 170px;
+}
+.wrap-table{
+    width: 90%;
+    margin-top: 25px;
+}
+.thead-color{
+    background-color: aquamarine;
+}
+.radio-buttons{
+    display: flex;
+    
+    gap: 10px;
+}
+input[type=radio] {
+    width: 15px;
+    height: 15px;
+   /* background-color: green; */
+}
+.check-radio {
+    appearance: none;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: solid 2px rgb(16, 211, 16);
+    border-radius: 50%;
+    /* background-color: rgb(250, 253, 250); */
+}
+.check-radio-2{
+    border: solid 2px rgb(241, 120, 50);
+
+}
+.check-radio-3{
+    border: solid 2px rgb(187, 1, 116);
+
+}
+.check-radio:checked{
+    background-color: green;
+}
+.check-radio-2:checked{
+    background-color: orangered;
+}
+.check-radio-3:checked{
+    background-color: red;
+}

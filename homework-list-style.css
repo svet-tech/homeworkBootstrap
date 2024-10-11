@@ -1,0 +1,100 @@
+.wrap {
+    padding: 45px;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-panel {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(165, 211, 165);
+    color: rgb(220, 241, 236);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-right: 35px;
+}
+
+.nav-block {
+    display: flex;
+}
+
+.homework-link{
+    text-decoration: none;
+    outline: none;
+    color: aliceblue;
+}
+
+.homework-link:hover{
+    color: white;
+}
+
+.fa-user-md {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-list>li:hover {
+    color: white;
+}
+
+.nav-icones {
+    font-size: 20px;
+    color: rgb(220, 241, 236);
+    display: flex;
+    gap: 48px;
+
+}
+.list-title {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 32px;
+    text-align: center;
+    width: 90%;
+    font-weight: 400;
+}
+.wrap-table{
+    width: 90%;
+    margin-top: 25px;
+}
+.group-form {
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    gap: 75px;
+    color: rgb(167, 174, 175);
+}
+.input-block-info{
+    margin-top: 9px;
+    height: 40px;
+    font-weight: bold;
+}
+.input-block-info::placeholder{
+    padding: 7px;
+
+}
+.thead-color{
+    background-color: aquamarine;
+    color: rgb(163, 159, 159);
+}
+.fa-file{
+    color: rgb(122, 122, 221);
+font-size: 22px;
+}
+.fa-window-minimize{
+    color: rgb(122, 122, 221);
+    text-align: center;
+    width: 70px;
+}
+.btn-test{
+    width: 70px;
+}
+/* paperclip */
+/* file  */
+/* window-minimize  */
