@@ -95,6 +95,20 @@ font-size: 22px;
 .btn-test{
     width: 70px;
 }
+.input-modal{
+    width: 470px;
+    margin-bottom: 15px;
+}
+.input-modal-browse{
+    width: 395px;
+    margin-right: 0;
+
+}
+.button-browse{
+    margin-left: -5px;
+    width: 70px;
+}
+
 /* paperclip */
 /* file  */
 /* window-minimize  */
